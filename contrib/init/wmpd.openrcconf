@@ -1,0 +1,26 @@
+# /etc/conf.d/wmpd: config file for /etc/init.d/wmpd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/wmp/wmp.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/wmpd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/wmpd.pid"
+
+# Where to write wmpd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/wmpd"
+
+# User and group to own wmpd process
+#BITCOIND_USER="wmp"
+#BITCOIND_GROUP="wmp"
+
+# Path to wmpd executable
+#BITCOIND_BIN="/usr/bin/wmpd"
+
+# Nice value to run wmpd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

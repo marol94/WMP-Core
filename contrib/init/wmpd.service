@@ -1,0 +1,26 @@
+[Unit]
+Description=WMP's distributed currency daemon
+After=network.target
+
+[Service]
+User=wmp
+Group=wmp
+
+Type=forking
+PIDFile=/var/lib/wmpd/wmpd.pid
+
+ExecStart=/usr/bin/wmpd -daemon -pid=/var/lib/wmpd/wmpd.pid \
+          -conf=/etc/wmp/wmp.conf -datadir=/var/lib/wmpd
+
+ExecStop=-/usr/bin/wmp-cli -conf=/etc/wmp/wmp.conf \
+         -datadir=/var/lib/wmpd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

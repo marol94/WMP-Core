@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/wmp_bg.qm</file>
+        <file alias="ca">locale/wmp_ca.qm</file>
+        <file alias="cs">locale/wmp_cs.qm</file>
+        <file alias="da">locale/wmp_da.qm</file>
+        <file alias="de">locale/wmp_de.qm</file>
+        <file alias="en">locale/wmp_en.qm</file>
+        <file alias="en_US">locale/wmp_en_US.qm</file>
+        <file alias="es">locale/wmp_es.qm</file>
+        <file alias="fi">locale/wmp_fi.qm</file>
+        <file alias="fr_FR">locale/wmp_fr_FR.qm</file>
+        <file alias="hr">locale/wmp_hr.qm</file>
+        <file alias="it">locale/wmp_it.qm</file>
+        <file alias="ja">locale/wmp_ja.qm</file>
+        <file alias="ko_KR">locale/wmp_ko_KR.qm</file>
+        <file alias="nl">locale/wmp_nl.qm</file>
+        <file alias="pl">locale/wmp_pl.qm</file>
+        <file alias="pt">locale/wmp_pt.qm</file>
+        <file alias="pt_BR">locale/wmp_pt_BR.qm</file>
+        <file alias="ro_RO">locale/wmp_ro_RO.qm</file>
+        <file alias="ru">locale/wmp_ru.qm</file>
+        <file alias="sk">locale/wmp_sk.qm</file>
+        <file alias="sv">locale/wmp_sv.qm</file>
+        <file alias="tr">locale/wmp_tr.qm</file>
+        <file alias="uk">locale/wmp_uk.qm</file>
+        <file alias="zh_CN">locale/wmp_zh_CN.qm</file>
+        <file alias="zh_TW">locale/wmp_zh_TW.qm</file>
+    </qresource>
+</RCC>

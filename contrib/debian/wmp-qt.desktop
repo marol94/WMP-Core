@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WMP
+Comment=WMP P2P Cryptocurrency
+Comment[fr]=WMP, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=WMP, eşten eşe kriptografik sanal para birimi
+Exec=wmp-qt %u
+Terminal=false
+Type=Application
+Icon=wmp128
+MimeType=x-scheme-handler/wmp;
+Categories=Office;Finance;
